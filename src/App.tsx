@@ -1,6 +1,13 @@
+import { DarkModeProvider } from "./components/DarkModeContext"
+import Navbar from "./components/Navbar"
+import Hero from "./pages/Hero"
+
 const App = () => {
   return (
-    <div>App</div>
+    <DarkModeProvider>
+      <Navbar />
+      <Hero />
+    </DarkModeProvider>
   )
 }
 
