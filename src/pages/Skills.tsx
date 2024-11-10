@@ -15,8 +15,9 @@ const Skills = () => {
       <div className="container mx-auto px-6 text-center">
         <motion.h2
           initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, ease: 'easeOut' }}
+          whileInView={{ opacity: 1, y: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 0.5, ease: 'easeOut' }}
           className="text-4xl md:text-5xl font-bold mb-12"
         >
           My Skills

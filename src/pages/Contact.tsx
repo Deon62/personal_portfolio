@@ -39,7 +39,8 @@ const Contact = () => {
     <section id="contact" className={`py-16 ${darkMode ? 'bg-gray-800' : 'bg-gray-50'} transition-all`}>
       <div className="max-w-3xl mx-auto text-center">
         <motion.h2
-          initial={{ opacity: 0 }}
+          initial={{ opacity: 0, y: -50 }}
+          whileInView={{ opacity: 1, y: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
           className={`text-3xl font-semibold ${darkMode ? 'text-white' : 'text-gray-800'} transition-all`}
