@@ -34,7 +34,7 @@ const Navbar = () => {
 
         {/* Links for larger screens */}
         <div className="hidden md:flex space-x-8">
-          <a href="#about" className="hover:text-[#3BB273]">About</a>
+          {/*  <a href="#about" className="hover:text-[#3BB273]">About</a> */}
           <a href="#projects" className="hover:text-[#3BB273]">Projects</a>
           <a href="#skills" className="hover:text-[#3BB273]">Skills</a>
           <a href="#contact" className="hover:text-[#3BB273]">Contact</a>

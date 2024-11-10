@@ -12,7 +12,7 @@ const Projects = () => {
   ];
 
   return (
-    <section className={`${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-50 text-gray-900'} py-16`}>
+    <section id="projects" className={`${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-50 text-gray-900'} py-16`}>
       <div className="container mx-auto px-6 text-center">
         <motion.h2
           initial={{ opacity: 0, y: -50 }}
