@@ -5,9 +5,12 @@ const Skills = () => {
   const { darkMode } = useDarkMode(); // Access the dark mode context
 
   const skills = [
-    { category: 'Programming Languages', items: ['JavaScript', 'TypeScript', 'Python', 'C++'] },
-    { category: 'Frameworks & Libraries', items: ['React', 'Next.js', 'Express', 'Flask'] },
-    { category: 'Tools & Technologies', items: ['Git', 'Docker', 'Kubernetes', 'AWS'] },
+    { category: 'Programming Languages', items: ['Python', 'R', 'C', 'C++', 'Java', 'JavaScript', 'TypeScript', 'SQL'] },
+    { category: 'Frameworks & Libraries', items: ['React', 'Next.js', 'Express', 'Flask', 'TensorFlow', 'PyTorch', 'sklearn'] },
+    { category: 'Tools & Technologies', items: ['Git', 'Docker', 'Kubernetes'] },
+    { category: 'Data science Tools', items: [ 'NumPy', 'Pandas','matplotlib & seaborn','jupyter notebook','scikit-learn','plotly','pytorch-lightning'] },
+    { category: 'Cloud platforms', items: ['AWS','Azure', 'Google Cloud Platform', 'IBM Cloud', 'Hugging Face'] },
+    { category: 'Big Data & Databases ', items: ['MongoDB', 'PostgreSQL', 'MySQL', 'Cassandra', 'Redis', 'supabase'] },
   ];
 
   return (

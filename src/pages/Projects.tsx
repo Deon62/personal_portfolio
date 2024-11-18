@@ -7,9 +7,13 @@ const Projects = () => {
   const { darkMode } = useDarkMode();
 
   const projects = [
-    { name: 'FinanceAI', description: 'A system for tracking financial services and providing insights', image: '/demo1.jpg', link: 'https://financeai.com' },
+    { name: 'FinancAI', description: 'A system for tracking financial services and providing insights', image: '/demo1.jpg', link: 'https://financeai.com' },
     { name: 'Lunar moon landing agent', description: 'A description of lunar', image: '/demo2.jpg', link: 'https://lunarmoon.com' },
     { name: 'A fighting kungfu agent', description: 'A description of kungfu agent', image: '/demo3.jpg', link: 'https://kungfuagent.com' },
+    { name: 'RAG Based Chatbot with voice Enabled', description: 'A description of RAG bot', image: '/demo7.jpg', link: 'https://RAGbot.com' },
+    { name: '6 Degree of separation', description: 'A description of 6 degrees of separation', image: '/demo8.jpg', link: 'https://lunarmoon.com' },
+    { name: 'Tic-Tac-Toe game with AI', description: 'A description of tic-tac-toe', image: '/demo9.jpg', link: 'https://kungfuagent.com' },
+    { name: 'Gymnasium self Driving Car', description: 'A description of a self driving car', image: '/demo10.jpg', link: 'https://RAGbot.com' },
   ];
 
   return (

@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
           transition={{ duration: 1, ease: 'easeOut' }}
           className="text-3xl mt-8 md:text-6xl font-bold"
         >
-          Hi, I'm Deon, AI & ML Enthusiast
+          Hi, I'm Deon , I Speak Fluent AI, With a Dash of ML and DL Magic!
         </motion.h1>
 
         {/* Subtitle or Description */}
